@@ -1,0 +1,9 @@
+package com.hiremate.ai.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.hiremate.ai.entity.JobDescriptionMatchRecord;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface JobDescriptionMatchRecordMapper extends BaseMapper<JobDescriptionMatchRecord> {
+}

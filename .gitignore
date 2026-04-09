@@ -1,0 +1,36 @@
+# ============================================
+# HireMate AI — Git Ignore
+# ============================================
+
+# ── 敏感信息 ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── 构建产物 ──────────────────────────────
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# ── IDE ──────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── 日志与临时文件 ──────────────────────────
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# ── 前端 Vite 缓存 ─────────────────────────
+frontend/.vite/
+frontend/node_modules/.vite/
+
+# ── 编译缓存（可选保留，加快二次构建）─────────
+# backend/target/
